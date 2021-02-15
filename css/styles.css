@@ -23,7 +23,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: transparent;
+	background: #281769;
 	z-index: 999;
 }
 .logo{
