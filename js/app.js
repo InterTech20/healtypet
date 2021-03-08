@@ -32,52 +32,109 @@ bar_icon.addEventListener('click', function(){
    }
 
 });
-
 inicio.addEventListener('click', function(){
 
-  
-   enlaces.style.width = '0%';
-   enlaces.style.overflow = 'hidden';
-   enlaces.style.transition = '0.5s';
-   nav.style.background = 'transparent';
-   nav.style.transition = '0.5s';
-   contador = true;
+  this.classList.toggle('active');
+   
+   if (contador == true) {
+     enlaces.style.width = '100%';
+     enlaces.style.overflow = 'hidden';
+     enlaces.style.transition = '0.5s';
+
+     nav.style.background = '#281769';
+     nav.style.transition = '0.5s';
+
+     contador = false;
+
+   }else{
+     
+     enlaces.style.width = '0%';
+     enlaces.style.overflow = 'hidden';
+     enlaces.style.transition = '0.5s';
+     nav.style.background = 'transparent';
+     nav.style.transition = '0.5s';
+     contador = true;
+   }
 
 });
 
 nosotros.addEventListener('click', function(){
 
-  contador = false;
-  enlaces.style.width = '0%';
-  enlaces.style.overflow = 'hidden';
-  enlaces.style.transition = '0.5s';
-  nav.style.background = 'transparent';
-  nav.style.transition = '0.5s';
+ this.classList.toggle('active');
+   
+   if (contador == true) {
+     enlaces.style.width = '100%';
+     enlaces.style.overflow = 'hidden';
+     enlaces.style.transition = '0.5s';
+
+     nav.style.background = '#281769';
+     nav.style.transition = '0.5s';
+
+     contador = false;
+
+   }else{
+     
+     enlaces.style.width = '0%';
+     enlaces.style.overflow = 'hidden';
+     enlaces.style.transition = '0.5s';
+     nav.style.background = 'transparent';
+     nav.style.transition = '0.5s';
+     contador = true;
+   }
  
 
 });
 
 
 servicios.addEventListener('click', function(){
+ this.classList.toggle('active');
+   
+   if (contador == true) {
+     enlaces.style.width = '100%';
+     enlaces.style.overflow = 'hidden';
+     enlaces.style.transition = '0.5s';
 
-  contador = false;
-  enlaces.style.width = '0%';
-  enlaces.style.overflow = 'hidden';
-  enlaces.style.transition = '0.5s';
-  nav.style.background = 'transparent';
-  nav.style.transition = '0.5s';
+     nav.style.background = '#281769';
+     nav.style.transition = '0.5s';
+
+     contador = false;
+
+   }else{
+     
+     enlaces.style.width = '0%';
+     enlaces.style.overflow = 'hidden';
+     enlaces.style.transition = '0.5s';
+     nav.style.background = 'transparent';
+     nav.style.transition = '0.5s';
+     contador = true;
+   }
 
 
 });
 
 contacto.addEventListener('click', function(){
 
-  contador = false;
-  enlaces.style.width = '0%';
-  enlaces.style.overflow = 'hidden';
-  enlaces.style.transition = '0.5s';
-  nav.style.background = 'transparent';
-  nav.style.transition = '0.5s';
+   this.classList.toggle('active');
+   
+   if (contador == true) {
+     enlaces.style.width = '100%';
+     enlaces.style.overflow = 'hidden';
+     enlaces.style.transition = '0.5s';
+
+     nav.style.background = '#281769';
+     nav.style.transition = '0.5s';
+
+     contador = false;
+
+   }else{
+     
+     enlaces.style.width = '0%';
+     enlaces.style.overflow = 'hidden';
+     enlaces.style.transition = '0.5s';
+     nav.style.background = 'transparent';
+     nav.style.transition = '0.5s';
+     contador = true;
+   }
 
 
 });
