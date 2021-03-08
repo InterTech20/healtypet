@@ -22,14 +22,13 @@ bar_icon.addEventListener('click', function(){
      contador = false;
 
    }else{
-     contador = true;
+     
      enlaces.style.width = '0%';
      enlaces.style.overflow = 'hidden';
      enlaces.style.transition = '0.5s';
-
      nav.style.background = 'transparent';
      nav.style.transition = '0.5s';
-
+     contador = true;
    }
 
 });
