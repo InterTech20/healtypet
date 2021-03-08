@@ -35,7 +35,7 @@ bar_icon.addEventListener('click', function(){
 
 inicio.addEventListener('click', function(){
 
-   contador = false;
+  
    enlaces.style.width = '0%';
    enlaces.style.overflow = 'hidden';
    enlaces.style.transition = '0.5s';
@@ -53,7 +53,7 @@ nosotros.addEventListener('click', function(){
   enlaces.style.transition = '0.5s';
   nav.style.background = 'transparent';
   nav.style.transition = '0.5s';
-  contador = true;
+ 
 
 });
 
@@ -66,7 +66,7 @@ servicios.addEventListener('click', function(){
   enlaces.style.transition = '0.5s';
   nav.style.background = 'transparent';
   nav.style.transition = '0.5s';
-  contador = true;
+
 
 });
 
@@ -78,6 +78,6 @@ contacto.addEventListener('click', function(){
   enlaces.style.transition = '0.5s';
   nav.style.background = 'transparent';
   nav.style.transition = '0.5s';
-  contador = true;
+
 
 });
